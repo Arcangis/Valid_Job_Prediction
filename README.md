@@ -122,4 +122,49 @@ job_post = {
 
 <hr>
 
-## Continue ...
+## Project
+
+This project includes:
+
+- Data Preparation / Cleaning
+- EDA
+- Train and validate models
+- Choose best model
+- Parameter tuning
+- App with model trained for prediction
+- Containerization
+
+Machine leaning algorithms used:
+
+- Logistic Regression
+- SVM
+- Naive Bayes
+- Decision Tree
+- Random Forest
+
+Best Classifier: <b>Decision Tree</b>
+
+Parameter for tuning:
+- max_depths
+- min_samples_splits
+- min_samples_leafs 
+- max_features
+
+Best Model:
+- roc_score:  0.86
+- confusion_matrix: 
+
+    | 4497 	| 45 	|
+    |---	|---	|
+    | 61 	| 165 	|
+
+Prediction Example:
+![title](prediction.png)
+
+<hr>
+
+## Fun Facts
+
+- Selecting 5% of the most used words in job titles, 100% of the titles that had the words "urgent" or "success" were <b>fraudulent</b>.
+
+- Almost 80% of jobs that the required education was "High School Coursework" were <b>fraudulent</b>.
